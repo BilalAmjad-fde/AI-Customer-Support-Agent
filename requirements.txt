@@ -1,0 +1,29 @@
+# Backend runtime dependencies
+fastapi
+uvicorn[standard]
+apscheduler
+pydantic-settings
+sqlalchemy
+alembic
+psycopg[binary]
+
+# Gmail API and OAuth 2.0
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# LLM and embeddings
+google-genai
+mistralai
+
+# MVP vector store and knowledge-base document parsing
+chromadb
+pypdf
+python-docx
+python-multipart
+
+# Tests
+httpx
+pytest
+pytest-asyncio
