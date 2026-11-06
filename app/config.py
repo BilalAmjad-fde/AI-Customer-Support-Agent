@@ -6,6 +6,10 @@ class Settings(BaseSettings):
     supabase_publishable_key:str
     supabase_secret_key:str
 
+    google_client_id:str
+    google_client_secret:str
+    google_refresh_token:str
+
     google_api_key:str
     google_api_model:str
 
