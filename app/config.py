@@ -16,6 +16,8 @@ class Settings(BaseSettings):
     mistral_api_key:str
     mistral_embd_model:str
 
+    poll_interval_seconds:int = 120
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

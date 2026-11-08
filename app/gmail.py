@@ -13,7 +13,7 @@ PROCESSED_LABEL = "ai-processed"
 ESCALATED_LABEL = "needs-human"
 
 
-class Gmail:
+class Gmail: 
     def __init__(self) -> None:
         creds = Credentials(
             token=None,
